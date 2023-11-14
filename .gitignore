@@ -6,6 +6,5 @@ package-lock.json
 
 # Exclude other files and directories
 node_modules/
-dist/
 build/
 *.log
