@@ -1,0 +1,11 @@
+# Ignore Tailwind CSS setup files
+tailwind.config.js
+postcss.config.js
+package.json
+package-lock.json
+
+# Exclude other files and directories
+node_modules/
+dist/
+build/
+*.log
