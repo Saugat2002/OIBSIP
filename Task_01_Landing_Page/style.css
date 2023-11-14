@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.nav-list li {
+  @apply hover:text-red-400 cursor-pointer font-semibold;
+}

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header class="fixed w-full bg-amber-600 z-10">
+      <nav class="shadow-lg">
+        <div class="px-8">
+          <div class="flex justify-between space-x-7">
+            <div>
+              <a
+                href="#"
+                class="flex items-center justify-center py-4 px-2 space-x-5"
+              >
+                <img src="./images/vpn.png" alt="" class="w-12" />
+                <span class="font-semibold text-white text-3xl font-[Alkatra]"
+                  >ProxyVPN</span
+                >
+              </a>
+            </div>
+            <div class="hidden md:flex items-center space-x-5">
+              <a
+                href="#hero"
+                class="py-4 px-2 text-white hover:text-gray-800 transition duration-300"
+                >Home</a
+              >
+              <a
+                href="#about"
+                class="py-4 px-2 text-white hover:text-gray-800 transition duration-300"
+                >About</a
+              >
+              <a
+                href="#services"
+                class="py-4 px-2 text-white hover:text-gray-800 transition duration-300"
+                >Services</a
+              >
+              <a
+                href="#contact"
+                class="py-4 px-2 text-white hover:text-gray-800 transition duration-300"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero  -->
+      <section
+        id="hero"
+        class="h-3/4 pb-24 pt-36 flex justify-center space-x-28 items-center px-14 w-full"
+      >
+        <img src="./images/heros.jpg" alt="" class="w-5/12" />
+        <div class="flex flex-col text-center justify-center space-y-7 my-10">
+          <span class="text-6xl font-bold text-yellow-900"
+            >Privacy at Peak</span
+          >
+          <span class="text-lg font-semibold">#1 trusted leader in VPN</span>
+          <div class="flex space-x-7 justify-center">
+            <button
+              class="bg-amber-700 text-white font-semibold px-5 py-3 rounded-2xl border-2 border-transparent hover:bg-amber-100 hover:text-gray-800 hover:border-gray-800 hover:transition-all hover:scale-110 shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-3xl"
+            >
+              Start Free
+            </button>
+            <button
+              class="bg-amber-100 font-semibold hover:bg-amber-700 px-5 py-3 rounded-2xl hover:text-white border-2 border-gray-800 hover:transition-all hover:scale-110 hover:border-transparent shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-3xl"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- About Section -->
+      <section id="about" class="bg-amber-200 h-3/4 pt-20">
+        <div class="flex flex-col justify-center mx-20">
+          <h1 class="w-full text-5xl font-bold text-center text-gray-800">
+            About Us
+          </h1>
+          <div class="flex justify-center items-center">
+            <div class="w-full">
+              <img src="./images/about.png" alt="About Us" />
+            </div>
+            <div class="w-5/6 flex flex-col space-y-5">
+              <h3 class="text-3xl text-gray-800 font-bold">
+                A trusted leader in VPN services
+              </h3>
+              <p class="text-gray-600">
+                We provide top-notch VPN services to ensure your privacy and
+                security on the internet. With our services, you can browse the
+                internet without worrying about your data being tracked or your
+                information being compromised.
+              </p>
+              <a href="#">
+                <button
+                  class="bg-amber-100 font-semibold hover:bg-amber-700 px-5 py-3 rounded-2xl hover:text-white border-2 border-gray-800 hover:transition-all hover:scale-110 hover:border-transparent shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-3xl"
+                >
+                  Get ProxyVPN Now >
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="bg-white pt-10 pb-4">
+        <div class="container mx-auto px-2 py-4 text-gray-800">
+          <h1 class="w-full my-2 text-5xl font-bold text-center text-gray-800">
+            Our Services
+          </h1>
+          <div class="w-full mb-4">
+            <div
+              class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
+            ></div>
+          </div>
+          <div class="flex">
+            <!-- Service 1 -->
+            <div
+              class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink"
+            >
+              <div
+                class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow flex flex-col items-center space-y-7"
+              >
+                <img src="./images/fast.png" alt="" class="w-36" />
+                <div>
+                  <div class="w-full font-bold text-xl text-gray-800 px-6">
+                    Fast VPN
+                  </div>
+                  <p class="text-gray-800 text-base px-6 mb-5">
+                    Experience fast and reliable VPN service with ProxyVPN.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Service 2 -->
+            <div
+              class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink"
+            >
+              <div
+                class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow flex flex-col items-center space-y-7"
+              >
+                <img src="./images/secure.png" alt="" class="w-36" />
+                <div>
+                  <div class="w-full font-bold text-xl text-gray-800 px-6">
+                    Secure Connection
+                  </div>
+                  <p class="text-gray-800 text-base px-6 mb-5">
+                    Secure your internet connection with our top-notch VPN
+                    service.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div
+              class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink"
+            >
+              <div
+                class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow flex flex-col items-center space-y-7"
+              >
+                <img src="./images/privacy.png" alt="" class="w-36" />
+                <div>
+                  <div class="w-full font-bold text-xl text-gray-800 px-6">
+                    Privacy Protection
+                  </div>
+                  <p class="text-gray-800 text-base px-6 mb-5">
+                    Protect your privacy and browse anonymously with ProxyVPN.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr
+        class="border-t-2 border-gradient-to-r from-blue-500 to-amber-500 my-8 mx-8"
+      />
+      <!-- Contact Section -->
+      <section id="contact" class="bg-white py-2">
+        <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
+          <h1
+            class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
+          >
+            Contact Us
+          </h1>
+          <div class="flex flex-wrap">
+            <div
+              class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink"
+            >
+              <form class="mt-6"  action="mailto:proxyvpn@gmail.com" method="post" enctype="text/plain">
+                <div>
+                  <label
+                    class="block text-gray-700 text-sm font-bold mb-2"
+                    for="name"
+                    >Name</label
+                  >
+                  <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="name"
+                    type="text"
+                    placeholder="Your name"
+                  />
+                </div>
+                <div class="mt-4">
+                  <label
+                    class="block text-gray-700 text-sm font-bold mb-2"
+                    for="email"
+                    >Email</label
+                  >
+                  <input
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="email"
+                    type="email"
+                    placeholder="Your email"
+                  />
+                </div>
+                <div class="mt-4">
+                  <label
+                    class="block text-gray-700 text-sm font-bold mb-2"
+                    for="message"
+                    >Message</label
+                  >
+                  <textarea
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                    id="message"
+                    placeholder="Your message"
+                    rows="4"
+                  ></textarea>
+                </div>
+                <div class="mt-6">
+                  <button
+                    class="px-4 py-2 rounded text-white bg-amber-700 hover:bg-amber-500" type="submit"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gray-800 py-4 flex flex-col space-y-4">
+      <div class="flex justify-center space-x-8">
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          class="text-blue-600 hover:text-blue-700 hover:bg-amber-400  transition duration-300 border-2 border-blue-600 rounded-full p-2 shadow-md hover:shadow-lg w-12 h-12 flex items-center justify-center"
+        >
+          <i class="fab fa-facebook-f text-2xl"></i>
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          class="text-blue-400 hover:text-blue-500 hover:bg-amber-400 transition duration-300 border-2 border-blue-400 rounded-full p-2 shadow-md hover:shadow-lg w-12 h-12 flex items-center justify-center"
+        >
+          <i class="fab fa-twitter text-2xl"></i>
+        </a>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          class="text-pink-600 hover:text-pink-700 hover:bg-amber-400  transition duration-300 border-2 border-pink-600 rounded-full p-2 shadow-md hover:shadow-lg w-12 h-12 flex items-center justify-center"
+        >
+          <i class="fab fa-instagram text-2xl"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          class="text-blue-700 hover:text-blue-800 hover:bg-amber-400 transition duration-300 border-2 border-blue-700 rounded-full p-2 shadow-md hover:shadow-lg w-12 h-12 flex items-center justify-center"
+        >
+          <i class="fab fa-linkedin-in text-2xl"></i>
+        </a>
+      </div>
+      <div class="text-center mt-8">
+        <p class="text-gray-400">
+          © 2022 ProxyVPN. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
